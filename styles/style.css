@@ -243,12 +243,13 @@ h4{
         padding: 0;
     }
     .banner-info{
-        padding: 2%;
+        padding: 5%;
     }
     .banner-info h1{
         font-size: 40px;
     }
     .banner-immage{
+        padding: 5%;
         margin: 0;
     }
     .banner-image img{
@@ -262,11 +263,11 @@ h4{
         grid-template-columns: repeat(1, 1fr);
     }
     .players .player{
-        width: 70%;
+        width: 90%;
         height: 90%;
     }
     .players .player img{
-        width: 90%;
+        width: 95%;
     }
     .match-details{
             display: grid;
@@ -279,16 +280,16 @@ h4{
         grid-template-columns: repeat(1, 1fr);
     }
     .sport-highlight-youtube-video{
-        width: 70%;
+        width: 90%;
     }
     .youtube-video{
-        width: 70%;
+        width: 90%;
     }
     .ranking-result-heading{
-        width: 60%;
+        width: 80%;
     }
     .ranking-result-table{
-        width: 70%;
+        width: 90%;
     }
     .mobile-devices-result-table td{
         margin-left: 2%;
