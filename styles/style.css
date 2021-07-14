@@ -8,14 +8,15 @@ body{
 }
 /* banner-section style */
 .banner-section{
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     background-color: #2D25A0;
     padding-top:75px;
     padding-left: 75px;
     padding-bottom: 40px;
 }
 .banner-info{
-    width: 50%;
+    width: 100%;
 }
 .banner-info h1{
     color: #FFFFFF;
@@ -36,13 +37,14 @@ body{
     border-radius: 25px;
     background-image: linear-gradient(#834270, #e91566);
 }
-.banner-immage{
-    width: 50%;
+.banner-image img{
+    width: 500px;
+    height: 500px;
     padding-top: 40px;
     padding-right: 65px;
     padding-bottom: 20px;
 }
-.banner-immage:hover{
+.banner-image:hover{
     transform: skewX(20deg);
 }
 .banner-section .banner-immage img{
@@ -141,6 +143,9 @@ footer{
 .sports-table tr:nth-child(odd){
     background-color: #f2f2f2
 }
+.highlight{
+    font-size: 30px;
+}
 h4{
     padding: 20px;
     color: #FFFFFF;
@@ -225,4 +230,75 @@ h4{
 .ranking-result-table .goal{
     background-color: black;
     font-size: 20px;
+}
+/* Media Queries */
+/* Mobile device */
+@media only screen and (max-width:688px) {
+    .container{
+        margin: 0;
+    }
+    .banner-section{
+        grid-template-columns: repeat(1, 1fr);
+        margin: 0;
+        padding: 0;
+    }
+    .banner-info{
+        padding: 2%;
+    }
+    .banner-info h1{
+        font-size: 40px;
+    }
+    .banner-immage{
+        margin: 0;
+    }
+    .banner-image img{
+        width: 300px;
+        height: 250px;
+        padding: 0;
+        margin: 0;
+    }
+    .players{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .players .player{
+        width: 70%;
+        height: 90%;
+    }
+    .players .player img{
+        width: 90%;
+    }
+    .match-details{
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            padding: 5%;
+    }
+    .sports-video{
+        padding-left: 27px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .sport-highlight-youtube-video{
+        width: 70%;
+    }
+    .youtube-video{
+        width: 70%;
+    }
+    .ranking-result-heading{
+        width: 60%;
+    }
+    .ranking-result-table{
+        width: 70%;
+    }
+    .mobile-devices-result-table td{
+        margin-left: 2%;
+        padding: 0;
+        width: 50%;
+    }
+    .footer-logo img{
+        width: 70%;
+        margin: 0;
+        padding: 0;
+    }
+    
 }
