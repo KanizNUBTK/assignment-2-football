@@ -95,3 +95,49 @@ body{
     font-size: 16px;
     text-decoration: underline #bebec0;
 }
+/* sports details */
+.sports-section{
+    background-color: rgb(203, 203, 238);
+    padding: 5% 10%;
+}
+.sports-section:hover{
+    background-image: linear-gradient(#a8c0ff, #3f2b96);
+}
+table{
+    width: 100%;
+    border-collapse:collapse;
+}
+table tr td{
+    border:1px solid rgb(233, 222, 222);
+    text-align: center;
+}
+tr:nth-child(odd){
+    background-color: #f2f2f2
+}
+h4{
+    padding: 20px;
+    color: #FFFFFF;
+    background-color: #2D25A0;
+}
+th {
+  background-color: #04AA6D;
+  color: white;
+}
+table p{
+    font-size: 14px;
+    margin-top: -10px;
+}
+.match-details{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap:30px ;
+}
+.match-fixture .flag{
+    width: 40px;
+    height: 40px;
+    padding-top: 10px;
+}
+.table-point .table-point-data td{
+    padding: 10px;
+}
+
