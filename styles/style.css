@@ -77,3 +77,21 @@ body{
     color: #858585;
     text-align: justify;
 }
+/* footer section style */
+.footer-section{
+    display: flex;
+    justify-content: center;
+}
+.footer-logo img{
+    width: 450px;
+    height: 110px;
+}
+.footer-social-icon .social-icon{
+    padding: 20px 7px 7px 5px;
+    width: 32px;
+    height: 32px;
+}
+.copy-right-part p{
+    font-size: 16px;
+    text-decoration: underline #bebec0;
+}
